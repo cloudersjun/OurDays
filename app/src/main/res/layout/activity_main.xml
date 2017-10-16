@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/heart"
+    tools:context="com.example.administrator.ourdays.MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/li"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            >
+                <TextView
+                    android:id="@+id/begintimeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:text="2015-03-12 13:14:00"
+                    android:textColor="@color/colorRed"
+                    android:layout_gravity="center" />
+                <TextView
+                    android:id="@+id/shu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="|"
+                    android:textColor="@color/colorRed"
+                    />
+                <TextView
+                    android:id="@+id/overtimeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="19dp"
+                    android:text="a year a month 3 days"
+                    android:textColor="@color/colorRed"
+                   />
+                <TextView
+                    android:id="@+id/overdayText"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="19dp"
+                    android:text="520 days"
+                    android:textColor="@color/colorRed"
+                    />
+                <TextView
+                    android:id="@+id/shu2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="|"
+                    android:textColor="@color/colorRed"
+                    />
+                <TextView
+                    android:id="@+id/endtimeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:text="2015-03-12 13:14:00"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorRed"
+                     />
+        </LinearLayout>
+</RelativeLayout>
